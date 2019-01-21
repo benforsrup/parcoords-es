@@ -2182,7 +2182,7 @@
   };
 
   var computeRealCentroids = function computeRealCentroids(dimensions, position) {
-    return function (row) {
+    return function (row, yourDim) {
       return Object.keys(dimensions).map(function (d) {
         var x = position(d);
         var y = dimensions[d].yscale(row[d]);
