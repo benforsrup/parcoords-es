@@ -1,7 +1,7 @@
-const computeRealCentroids = (dimensions, position) => row =>
-  Object.keys(dimensions).map(d => {
+const computeRealCentroids = (dimensions, position) => (row, yourDim) =>
+  Object.keys(yourDim).map(d => {
     const x = position(d);
-    const y = dimensions[d].yscale(row[d]);
+    const y = yourDim[d].yscale(row[d]);
     return [x, y];
   });
 
