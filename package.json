@@ -35,7 +35,8 @@
     "d3-shape": "^1.2.0",
     "d3-transition": "^1.1.1",
     "requestanimationframe": "0.0.23",
-    "sylvester-es6": "0.0.2"
+    "sylvester-es6": "0.0.2",
+    "searchjs": "file:../searchjs"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
